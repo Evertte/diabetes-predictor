@@ -7,7 +7,7 @@ import os
 
 # Download model from Google Drive if not present
 if not os.path.exists("Diabetes_prediction.pkl"):
-    url = "https://drive.google.com/uc?export=download&id=17BkcH_4_9MAY4O1WuxqObkeOK5x4TVbh"
+    url = "https://drive.google.com/uc?export=download&id=17BkcH_4_9MAY4O1WuxqOK5x4TVbh"
     urllib.request.urlretrieve(url, "Diabetes_prediction.pkl")
 
 # Load the trained model
