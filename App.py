@@ -12,7 +12,7 @@ if not os.path.exists("Diabetes_prediction.pkl"):
 
 # Load the trained model
 
-model = joblib.load('Diabetes_prediction_compressed.pkl')
+model = joblib.load('Diabetes_prediction.pkl')
 scaler = joblib.load("scaler.pkl")
 
 st.title("Diabetes Prediction App 💉")
