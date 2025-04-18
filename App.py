@@ -2,13 +2,17 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-import urllib.request
-import os
-
 # Download model from Google Drive if not present
+import os
+import urllib.request
+
+# Check if the model file exists
 if not os.path.exists("Diabetes_prediction.pkl"):
-    url = "https://drive.google.com/uc?export=download&id=17BkcH_4_9MAY4O1WuxqOK5x4TVbh"
-    urllib.request.urlretrieve(url, "Diabetes_prediction.pkl")
+    url = "https://drive.google.com/uc?export=download&id=17BkcH_4_9MAY4O1WuxqObkeOK5x4TVbh"
+    urllib.request.urlretrieve(url, "Diabetes_prediction.pkl")
+    print("Model file downloaded successfully!")
+else:
+    print("Model file already exists.")
 
 # Load the trained model
 
