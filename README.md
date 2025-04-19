@@ -1,6 +1,6 @@
-# 🩺 Diabetes Prediction Web App(https://diabetes-checker.streamlit.app/)
+# 🩺 Diabetes Prediction Web App
 
-This is a machine learning project that predicts whether an individual is likely to have diabetes based on personal health information. The prediction is powered by a trained classification model, and the interface is built using [Streamlit](https://streamlit.io/), making it easy to use and share with others.
+This is a machine learning project (https://diabetes-checker.streamlit.app/) that predicts whether an individual is likely to have diabetes based on personal health information. The prediction is powered by a trained classification model, and the interface is built using [Streamlit](https://streamlit.io/), making it easy to use and share with others.
 
 ## 🔍 Features
 
